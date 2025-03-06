@@ -1,3 +1,5 @@
 /* Apenas imports para usar na estilização do index.html */
 @import url(global.css);
+@import url(utility.css);
 @import url(header.css);
+@import url(sections.css);

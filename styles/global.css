@@ -42,17 +42,16 @@ h1, h2, h3 {
   font: inherit; /* Herda a configuração de fonte do elemento pai */
 }
 
+img {
+  max-width: 100%;
+}
+
 .container {
   max-width: 1280px;
   padding-inline: 32px;
   margin-inline: auto;
 }
 
-/* Utility-first: uma classe que fara apenas uma coisa */
-.grid {
-  display: grid;
-}
-
-.grid-flow-col {
-  grid-auto-flow: column;
+main {
+  margin-top: 40px;
 }
